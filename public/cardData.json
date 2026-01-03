@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Minimalist Ceramic Vase", "price": 85.00, "rating": 4.9, "reviews": 128, "image": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?q=80&w=800" },
+  { "id": 2, "name": "Artisan Cotton Throw", "price": 120.00, "rating": 4.8, "reviews": 95, "image": "https://images.unsplash.com/photo-1528913122250-60df892ac967?q=80&w=800" },
+  { "id": 3, "name": "Hand-Poured Soy Candle", "price": 32.00, "rating": 4.7, "reviews": 210, "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=800" },
+  { "id": 4, "name": "Solid Oak Side Table", "price": 450.00, "rating": 5.0, "reviews": 42, "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=800" },
+  { "id": 5, "name": "Linen Bedding Set", "price": 280.00, "rating": 4.9, "reviews": 156, "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800" },
+  { "id": 6, "name": "Modern Glass Carafe", "price": 64.00, "rating": 4.6, "reviews": 88, "image": "https://images.unsplash.com/photo-1517088455889-bfa75135412c?q=80&w=800" }
+]
