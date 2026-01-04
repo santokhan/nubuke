@@ -160,7 +160,7 @@ export default function Navbar() {
           href="/"
           className="text-4xl md:text-5xl font-bold text-[#39180F]"
         >
-          Nubuke
+         <h1> Nubuke</h1>
         </Link>
       </div>
 

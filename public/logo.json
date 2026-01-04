@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Apple", "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" },
+  { "id": 2, "name": "Google", "image": "https://upload.wikimedia.org/wikipedia/commons/2/c/Google_logo.svg" },
+  { "id": 3, "name": "Amazon", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+  { "id": 4, "name": "Nike", "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" },
+  { "id": 5, "name": "Coca-Cola", "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg" },
+  { "id": 6, "name": "Starbucks", "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/Starbucks_Corporation_Logo_2011.svg" },
+  { "id": 7, "name": "Tesla", "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg" },
+  { "id": 8, "name": "Netflix", "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" },
+  { "id": 9, "name": "Samsung", "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" },
+  { "id": 10, "name": "Mercedes-Benz", "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Benz_Logo_2010.svg" },
+  { "id": 11, "name": "McDonalds", "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg" },
+  { "id": 12, "name": "Adidas", "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg" }
+]
