@@ -112,7 +112,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="navbar bg-[#F5EDDE]  xl:px-38 lg:px-12 md:px-8 relative lg:py-5">
+    <div className="navbar bg-[#F5EDDE]  xl:px-38 lg:px-12 md:px-8 relative lg:py-5 ">
       <div className="navbar-start">
         <div className="flex items-center gap-4 lg:hidden">
           <button onClick={() => setIsOpen(true)}>

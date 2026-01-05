@@ -20,7 +20,7 @@ export default function Mission() {
   return (
     <section className="bg-white py-12  overflow-hidden">
       <div className="  text-center px-4  xl:px-38 lg:px-12 md:px-8 space-y-3 ">
-        <h2 className="text-[#39180F] text-4xl font-medium uppercase italic tracking-tight leading-tight">
+        <h2 className="text-[#39180F] text-3xl md:text-4xl font-medium uppercase italic tracking-tight leading-tight">
           The Future Of Chocolate Is Here
         </h2>
         <p className="text-[#945947] text-lg font-medium  mx-auto  leading-relaxed">

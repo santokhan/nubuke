@@ -20,7 +20,7 @@ export default function PreHeader() {
   }, []);
 
   return (
-    <div className="w-full px-4 py-2 flex items-center justify-center bg-[#39180F] gap-6 text-sm font-medium text-[#E5DAC6]">
+    <div className="w-full px-4 py-2 flex items-center justify-center bg-[#39180F] gap-6 text-sm font-medium text-[#E5DAC6] ">
       <button
         onClick={() =>
           setIndex((prev) => (prev - 1 + slides.length) % slides.length)

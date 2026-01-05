@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Sustained Energy & Wholeness",
+    "description": "High in complete proteins and fibers that keep you full and focused without crashes. Naturally rich in iron, zinc, and essential amino acids—gluten-free nourishment for body and gut.",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200"
+  },
+  {
+    "id": 2,
+    "title": "Ethical & Fair Trade Partnerships",
+    "description": "Farmers are paid 3x the market rate with no brokers involved. 85% of our partners are women growers in cooperatives, ensuring that abundance is shared across the entire community.",
+    "image": "https://shreejifoods.in/cdn/shop/articles/SF_Blog_Banner_Why_are_Dates_Good_for_Health_in_Winter_1400x.jpg?v=1640240055"
+  },
+  {
+    "id": 3,
+    "title": "Planet-Friendly & Zero Waste",
+    "description": "Our crops thrive with minimal water and fertilizer, preserving soil while feeding communities. We utilize a zero-waste supply chain with local milling and recyclable packaging.",
+    "image": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=1200"
+  },
+  {
+    "id": 4,
+    "title": "Measured Impact & Land Restoration",
+    "description": "Nutrition you can trust and impact you can measure. We have regenerated 14,200 acres of land and funded over 850 school meals through your direct purchases.",
+    "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200"
+  }
+]
