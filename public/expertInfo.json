@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "image": "https://i.pravatar.cc/150?u=sarah",
+    "bio": "Senior Art Curator",
+    "stars": 5,
+    "comment": "The collection at Nubuke is truly world-class. The attention to cultural detail and modern aesthetics creates a unique experience for every visitor The collection at Nubuke is truly world-class. The attention to cultural detail and modern aesthetics creates a unique experience for every visitor."
+  },
+  {
+    "id": 2,
+    "name": "David Mensah",
+    "image": "https://i.pravatar.cc/150?u=david",
+    "bio": "Architecture Critic",
+    "stars": 5,
+    "comment": "A masterpiece of spatial design. The way the light interacts with the gallery walls is something every enthusiast must witness in person."
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "image": "https://i.pravatar.cc/150?u=elena",
+    "bio": "Visual Historian",
+    "stars": 5,
+    "comment": "Nubuke manages to bridge the gap between traditional heritage and contemporary vision effortlessly. A vital pillar for the local art scene."
+  }
+]

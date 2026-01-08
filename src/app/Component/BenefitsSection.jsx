@@ -36,7 +36,7 @@ export default function BenefitsScroll() {
   if (data.length === 0) return null;
 
   return (
-    <section className="bg-[#F5EDDE] relative xl:px-38 lg:px-12 md:px-8 px-4 pt-20 ">
+    <section className="bg-[#F5EDDE] relative xl:px-50 lg:px-12 md:px-8 px-4 pt-20 ">
      <div>
          <h1 className="text-[#39180F] text-5xl md:text-7xl italic md:text-center mb-10">
         The Benefits Of Nubuke{" "}
