@@ -1,0 +1,24 @@
+{
+  "heading": "We don't <b>cut corners</b>.",
+  "description": "We set out to build a brand you can <b>trust</b>, all the way through. From our farmers to our ingredients, to our packaging, we are <b>intentional</b> in making sure sustainability and ethics lie at the core of what we do.",
+  "cards": [
+    {
+      "title": "Direct Trade",
+      "image": "https://img.freepik.com/free-photo/close-up-chocolate-arrangement_23-2148349283.jpg?semt=ais_hybrid&w=740&q=80",
+      "text": "Farmers paid <b>3x market rate</b> with no middleman. Our <b>98% farmer retention</b> rate ensures that the hands harvesting our Fonio are respected.",
+      "link": "/story"
+    },
+    {
+      "title": "Sustainability",
+      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800",
+      "text": "<b>14,200 acres regenerated</b> using drought-resistant crops. We choose to live in <b>harmony</b> with the earth rather than extraction.",
+      "link": "/impact"
+    },
+    {
+      "title": "Nourishment",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800",
+      "text": "Pure, <b>nutrient-dense</b> ingredients with nothing added. Every grain carries <b>sunlight</b> converted to sustenance.",
+      "link": "/products"
+    }
+  ]
+}

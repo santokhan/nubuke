@@ -8,6 +8,8 @@ import ProductHero from "./Component/ProductHero";
 import BenefitsSection from "./Component/BenefitsSection";
 import ImageGallery from "./Component/ImageGallery";
 import ExpertTestimonials from "./Component/ExpertTestimonials";
+import NubukeMarquee from "./Component/NubukeMarquee";
+import Commitment from "./Component/Commitment";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <BenefitsSection />
       <ImageGallery/>
       <ExpertTestimonials/>
+      <NubukeMarquee/>
+      <Commitment/>
     </div>
   );
 }

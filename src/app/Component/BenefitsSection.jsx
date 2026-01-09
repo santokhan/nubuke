@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 
-export default function BenefitsScroll() {
+export default function BenefitsSection() {
   const [data, setData] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const sectionRefs = useRef([]);
@@ -42,7 +42,7 @@ export default function BenefitsScroll() {
         The Benefits Of Nubuke{" "}
       </h1>
      </div>
-      <div className="hidden md:flex  flex-row items-start ">
+      <div className="hidden md:flex  flex-row items-start gap-2 ">
         <div className="w-[50%]  ">
           {data.map((item, index) => (
             <div
@@ -68,9 +68,9 @@ export default function BenefitsScroll() {
           ))}
         </div>
 
-        <div className=" w-[50%]  sticky top-60 flex items-center overflow-hidden">
-          <div className="relative w-full h-full flex items-center">
-            <div className="relative w-full md:h-[60vh] xl:h-[70vh] rounded-lg overflow-hidden bg-[#39180F]">
+        <div className=" w-[50%]   sticky top-60  flex items-center overflow-hidden rounded-md">
+          <div className="relative w-full xl:h-160 h-full flex items-center ">
+            <div className="relative w-full  aspect-4/4 rounded-lg overflow-hidden bg-[#39180F]">
               {data.map((item, index) => (
                 <div
                   key={item.id}
@@ -111,9 +111,9 @@ export default function BenefitsScroll() {
         {data.map((item, index) => (
           <div
             key={item.id}
-            className="min-w-[75vw] snap-center rounded-md overflow-hidden"
+            className="min-w-[65vw]  snap-center rounded-md overflow-hidden"
           >
-            <div className="relative w-full h-100 ">
+            <div className="relative w-full aspect-4/4 ">
               <Image
                 src={item.image}
                 alt={item.title}
@@ -122,10 +122,10 @@ export default function BenefitsScroll() {
                 unoptimized
               />
             </div>
-            <div className="p-6">
-              <div className="flex items-center gap-4 mb-6 text-[#39180F] font-bold">
-                <span className="w-12 h-0.5 bg-[#39180F]"></span>
-                <span className="text-xl tracking-widest">
+            <div className="py-6">
+              <div className="flex items-center gap-2 mb-6 text-[#39180F] font-bold">
+                <span className="w-5 h-0.5 bg-[#39180F]"></span>
+                <span className="text- tracking-widest">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </div>
