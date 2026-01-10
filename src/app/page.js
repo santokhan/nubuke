@@ -10,14 +10,12 @@ import ImageGallery from "./Component/ImageGallery";
 import ExpertTestimonials from "./Component/ExpertTestimonials";
 import NubukeMarquee from "./Component/NubukeMarquee";
 import Commitment from "./Component/Commitment";
+import Faq from "./Component/Faq";
 
 export default function Home() {
   return (
     <div className="bg-[#F5EDDE]">
-      <div className="sticky top-0 z-50">
-        <PreHeader />
-        <Navbar />
-      </div>
+    
 
       <Banner />
       <Products />
@@ -28,6 +26,8 @@ export default function Home() {
       <ExpertTestimonials/>
       <NubukeMarquee/>
       <Commitment/>
+      <Faq/>
+      
     </div>
   );
 }

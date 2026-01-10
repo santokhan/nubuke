@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "category": "Brand & Philosophy",
+    "question": "What does the name 'Nubukë' mean?",
+    "answer": "Nubukë represents a feeling of being whole, belonging to something larger than yourself, and being nourished both physically and spiritually."
+  },
+  {
+    "id": 2,
+    "category": "Brand & Philosophy",
+    "question": "What is the mission of Nubukë?",
+    "answer": "To curate and share the world’s most remarkable natural and indigenous ingredients through ethical partnerships, inspiring sustainable living and culinary discovery."
+  },
+  {
+    "id": 3,
+    "category": "Brand & Philosophy",
+    "question": "What are your core values?",
+    "answer": "Our values are Honesty (truth over marketing), Simplicity (less is more), Fairness (paying people what they deserve), Quality (nothing added), and Action (doing the work)."
+  },
+  {
+    "id": 4,
+    "category": "Products - Fonio",
+    "question": "What is Pure Black Fonio?",
+    "answer": "It is 100% Digitaria iburua, an ancient, gluten-free grain ethically sourced from Ghana, known for being nutrient-dense and eco-friendly."
+  },
+  {
+    "id": 5,
+    "category": "Products - Fonio",
+    "question": "Is your fonio gluten-free?",
+    "answer": "Yes, both our Pure Black Fonio Grain and Fonio Flour are naturally 100% gluten-free and suitable for those with gluten sensitivities."
+  },
+  {
+    "id": 6,
+    "category": "Nutrition",
+    "question": "What are the nutritional benefits of fonio?",
+    "answer": "Fonio is a complete protein, high in fiber, and naturally rich in iron, zinc, and essential amino acids for gut and body health."
+  },
+  {
+    "id": 7,
+    "category": "Cooking",
+    "question": "How do I cook Nubukë Fonio grain?",
+    "answer": "Rinse 1 cup of fonio, simmer in 2 cups of water or broth for 5-7 minutes until fluffy, then fluff with a fork."
+  },
+  {
+    "id": 8,
+    "category": "Products - Flour",
+    "question": "Can I use Fonio Flour for baking?",
+    "answer": "Absolutely. It is a 1:1 gluten-free substitute ideal for pancakes, muffins, porridges, and smoothies, providing a light and fluffy rise."
+  },
+  {
+    "id": 9,
+    "category": "Products - Cassava",
+    "question": "What makes your Cassava Flour unique?",
+    "answer": "Our Cassava Flour is 100% cassava root, sustainably sourced to support smallholder farmers, and is naturally high in fiber for digestive health."
+  },
+  {
+    "id": 10,
+    "category": "Cooking",
+    "question": "What can I use Cassava Flour for?",
+    "answer": "It is an excellent gluten-free substitute for baking and acts as a smooth thickener for soups, stews, and sauces."
+  },
+  {
+    "id": 11,
+    "category": "Sustainability",
+    "question": "What is 'Fair Trade Direct'?",
+    "answer": "It is our commitment to pay farmers 3x the market rate by working directly with them and eliminating middlemen brokers."
+  },
+  {
+    "id": 12,
+    "category": "Impact",
+    "question": "How does my purchase support women growers?",
+    "answer": "85% of our partner growers are part of women-led cooperatives, ensuring that your purchase directly empowers women in agriculture."
+  },
+  {
+    "id": 13,
+    "category": "Sustainability",
+    "question": "What is a 'Zero Waste Supply Chain'?",
+    "answer": "We utilize local milling to reduce transport emissions and use recyclable packaging to minimize our environmental footprint."
+  },
+  {
+    "id": 14,
+    "category": "Impact",
+    "question": "How many school meals has Nubukë funded?",
+    "answer": "To date, our community has helped fund over 850 school meals through their purchases."
+  },
+  {
+    "id": 15,
+    "category": "Impact",
+    "question": "What is your impact on the land?",
+    "answer": "We have successfully helped regenerate 14,200 acres of land by promoting planet-friendly crops like fonio that require minimal water."
+  },
+  {
+    "id": 16,
+    "category": "Nutrition",
+    "question": "Does fonio cause energy crashes?",
+    "answer": "No, fonio provides sustained energy because it is high in complex proteins and fibers that keep you full and focused."
+  },
+  {
+    "id": 17,
+    "category": "Storage",
+    "question": "How should I store my Nubukë products?",
+    "answer": "All our products should be stored sealed at room temperature to maintain freshness and quality."
+  },
+  {
+    "id": 18,
+    "category": "Sourcing",
+    "question": "Where do your ingredients come from?",
+    "answer": "Our Black Fonio is ethically sourced from Ghana, while our Cassava is sustainably grown by smallholder farmers in West Africa."
+  },
+  {
+    "id": 19,
+    "category": "Cooking",
+    "question": "Do I need to rinse fonio before cooking?",
+    "answer": "Yes, we recommend rinsing 1 cup of fonio before simmering to ensure the best texture and cleanliness."
+  },
+  {
+    "id": 20,
+    "category": "Sustainability",
+    "question": "Is fonio better for the planet than other grains?",
+    "answer": "Yes, it thrives with minimal water and fertilizer, helping to preserve soil health while providing nutrition to communities."
+  },
+  {
+    "id": 21,
+    "category": "Transparency",
+    "question": "What does 'Truth over Marketing' mean to you?",
+    "category_id": "core_values",
+    "answer": "It means we prioritize honesty in our sourcing, pricing, and ingredients over making flashy, unsubstantiated claims."
+  },
+  {
+    "id": 22,
+    "category": "Products",
+    "question": "Are there any additives in your flours?",
+    "answer": "No. Our flours are 100% pure (either cassava or fonio) with nothing added—no fillers, preservatives, or artificial ingredients."
+  },
+  {
+    "id": 23,
+    "category": "Purchasing",
+    "question": "Where can I buy Nubukë products?",
+    "answer": "You can find our full range of products, including our grains and flours, on Amazon."
+  },
+  {
+    "id": 24,
+    "category": "Impact",
+    "question": "What is your farmer retention rate?",
+    "answer": "We are proud to maintain a 98% farmer retention rate, which speaks to the fairness and strength of our partnerships."
+  },
+  {
+    "id": 25,
+    "category": "Nutrition",
+    "question": "Is Cassava Flour easy to digest?",
+    "answer": "Yes, it is naturally rich in fiber which supports digestive health and provides a steady source of gluten-free energy."
+  },
+  {
+    "id": 26,
+    "category": "Cooking",
+    "question": "Can fonio replace rice?",
+    "answer": "Yes, fonio is a perfect rice substitute for grain bowls, salads, porridges, or pilafs."
+  },
+  {
+    "id": 27,
+    "category": "Company",
+    "question": "Where is Nubukë located?",
+    "answer": "Our office is located in New York, NY 10035, but our heart and supply chain remain rooted in West Africa."
+  },
+  {
+    "id": 28,
+    "category": "Transparency",
+    "question": "How can I contact Nubukë?",
+    "answer": "You can reach out to us for any questions or connections at hello@mynubuke.com."
+  },
+  {
+    "id": 29,
+    "category": "Cooking",
+    "question": "Does Cassava Flour need to be cooked?",
+    "answer": "Yes, for safety and best texture, cassava flour should always be cooked thoroughly in your recipes."
+  },
+  {
+    "id": 30,
+    "category": "Brand & Philosophy",
+    "question": "What is the 'Brand Promise'?",
+    "answer": "Nutrition you can trust. Impact you can measure. Food you can feel good about."
+  }
+]
