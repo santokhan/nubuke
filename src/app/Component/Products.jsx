@@ -2,9 +2,11 @@
 import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Products() {
   const scrollRef = useRef(null);
+  const router = useRouter();
   const [progress, setProgress] = useState(0);
   const [products, setProducts] = useState([]);
 
@@ -100,6 +102,7 @@ export default function Products() {
         {products.map((item, index) => (
           <div
             key={item.id}
+            onClick={() => router.push(`/products/${item.id}`)}
             className="min-w-80 flex flex-col snap-start group bg-white rounded-lg cursor-pointer"
           >
             <div className="relative aspect-square overflow-hidden mb-6 bg-[#E5DAC6] rounded-t-lg">
@@ -108,14 +111,25 @@ export default function Products() {
                   Pre-order now : will be deliver within 5-7 days
                 </div>
               )}
+              
               <Image
-                src={item.image}
+                src={item.images[0]}
                 alt={item.name}
                 fill
                 sizes="(max-width: 768px) 300px, 400px"
-                className="object-cover transition-transform duration-1000 group-hover:scale-110"
+                className="object-cover transition-opacity duration-700 opacity-100 group-hover:opacity-0"
                 priority={index < 2}
               />
+              
+              {item.images.length > 1 && (
+                <Image
+                  src={item.images[1]}
+                  alt={`${item.name} alternate`}
+                  fill
+                  sizes="(max-width: 768px) 300px, 400px"
+                  className="object-cover transition-all duration-700 opacity-0 group-hover:opacity-100 scale-100 group-hover:scale-110"
+                />
+              )}
             </div>
 
             <div className="flex flex-col gap-5 px-4 pb-4">
@@ -141,7 +155,12 @@ export default function Products() {
                     </div>
                   </div>
                   <div className="h-12 flex items-center overflow-hidden">
-                    <button className="whitespace-nowrap bg-[#39180F] text-[#F5EDDE] py-2.5 px-6 text-xs tracking-[0.2em] font-bold rounded-full transition-all duration-500 ease-out opacity-100 translate-y-0 md:opacity-0 md:translate-y-full group-hover:opacity-100 group-hover:translate-y-0 hover:border hover:border-gray-300 hover:bg-transparent hover:text-black cursor-pointer ">
+                    <button 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                      }}
+                      className="whitespace-nowrap bg-[#39180F] text-[#F5EDDE] py-2.5 px-6 text-xs tracking-[0.2em] font-bold rounded-full transition-all duration-500 ease-out opacity-100 translate-y-0 md:opacity-0 md:translate-y-full group-hover:opacity-100 group-hover:translate-y-0 hover:border hover:border-gray-300 hover:bg-transparent hover:text-black cursor-pointer "
+                    >
                       Add to Cart
                     </button>
                   </div>

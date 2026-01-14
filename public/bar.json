@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "count": "One Bar"
+  },
+  {
+    "id": 2,
+    "count": "5 Bars",
+    "off": "5% OFF"
+  },
+  {
+    "id": 3,
+    "count": "10 Bars",
+    "off": "15% OFF"
+  },
+  {
+    "id": 4,
+    "count": "15 Bars",
+    "off": "20% OFF"
+  }
+]

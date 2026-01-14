@@ -22,6 +22,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "img.freepik.com",
       },
+       {
+        protocol: "https",
+        hostname: "images.squarespace-cdn.com",
+      },
+     
       {
         protocol: 'https',
         hostname: 'i.pravatar.cc',

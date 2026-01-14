@@ -33,7 +33,7 @@ export default function FaqPage() {
           >
             <div className="flex items-center justify-between py-4">
               <p
-                className="md:text-lg font-bold cursor-pointer w-full"
+                className="md:text-lg font-bold cursor-pointer w-full "
                 onClick={() => toggle(index)}
               >
                 {item.question}

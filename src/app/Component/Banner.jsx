@@ -8,7 +8,7 @@ export default function Banner() {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('./banner.png')",
+          backgroundImage: "url('/banner.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
