@@ -7,7 +7,7 @@ import BenefitsSection from "@/app/Component/BenefitsSection";
 
 export default function page() {
   return (
-    <div>
+    <div className="bg-[#F5EDDE]">
       <ProductDetails />
       <Products />
       <ProductHero/>

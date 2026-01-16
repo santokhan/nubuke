@@ -3,12 +3,15 @@ import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useCart } from "../context/CartContext";
 
 export default function Products() {
   const scrollRef = useRef(null);
   const router = useRouter();
   const [progress, setProgress] = useState(0);
   const [products, setProducts] = useState([]);
+  const { addToCart } = useCart();
+
 
   useEffect(() => {
     fetch("/cardData.json")
@@ -73,7 +76,7 @@ export default function Products() {
         >
           <span className="relative text-nowrap">
             VIEW ALL
-            <span className="absolute left-0 -bottom-1 w-full h-[1.5px] bg-[#39180F] origin-right scale-x-0 transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-left"></span>
+            <span className="absolute left-0 -bottom-1 w-full h-[1.5px] bg-[#39180F] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-left"></span>
           </span>
 
           <div className="flex items-center justify-center h-6 w-6 rounded-full border border-[#39180F]/10 transition-all duration-300 group-hover:bg-[#39180F] group-hover:text-white bg-[#ebdfca] group-hover:border-[#39180F] p-1">
@@ -158,6 +161,7 @@ export default function Products() {
                     <button 
                       onClick={(e) => {
                         e.stopPropagation();
+                         addToCart(item);
                       }}
                       className="whitespace-nowrap bg-[#39180F] text-[#F5EDDE] py-2.5 px-6 text-xs tracking-[0.2em] font-bold rounded-full transition-all duration-500 ease-out opacity-100 translate-y-0 md:opacity-0 md:translate-y-full group-hover:opacity-100 group-hover:translate-y-0 hover:border hover:border-gray-300 hover:bg-transparent hover:text-black cursor-pointer "
                     >

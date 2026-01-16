@@ -18,8 +18,8 @@ export default function FaqPage() {
   };
   return (
     <div className="bg-[#F5EDDE] xl:px-50 lg:px-12 md:px-8 px-4">
-      <div className="">
-        <h1 className="text-4xl mb-15 text-[#39180F]  text-center italic">
+      <div className="pt-16">
+        <h1 className="text-4xl mb-15 text-[#39180F]  text-center ">
           Frequently Asked Questions
         </h1>
         <div className="

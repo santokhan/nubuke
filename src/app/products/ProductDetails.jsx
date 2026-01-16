@@ -179,7 +179,7 @@ export default function ProductDetails() {
             The Conscious Bar
           </p>
 
-          <h1 className="text-[#39180F] text-2xl md:text-3xl lg:text-4xl font-medium italic uppercase">
+          <h1 className="text-[#39180F] text-2xl md:text-3xl  font-medium  uppercase">
             {product.name}
           </h1>
 
@@ -205,7 +205,7 @@ export default function ProductDetails() {
             </span>
           </div>
 
-          <p className="text-xl md:text-2xl text-[#39180F] ">
+          <p className="text-lg md:text-xl text-[#39180F] ">
             ${product.price.toFixed(2)}
           </p>
 
