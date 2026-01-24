@@ -91,21 +91,9 @@ export default function ShopPage() {
                   className="object-cover transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100 scale-105 group-hover:scale-100"
                 />
               )}
-
-              <div className="absolute bottom-4 left-4 right-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 z-10">
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    addToCart(item);
-                  }}
-                  className="w-full bg-[#39180F] text-[#F5EDDE] py-3 rounded-full font-bold uppercase text-[10px] tracking-widest hover:bg-[#945947] cursor-pointer"
-                >
-                  Add to Cart +
-                </button>
-              </div>
             </div>
 
-            <div className="flex flex-col flex-1 space-y-2 p-8">
+            <div className="flex flex-col flex-1  p-8">
               <div className="flex justify-between items-start gap-4">
                 <h3 className="font-bold text-lg md:text-xl tracking-tight leading-tight min-h-12 line-clamp-2">
                   {item.name}
@@ -123,6 +111,17 @@ export default function ShopPage() {
                 <span className="  text-[#39180F]/60">
                   ${item.price.toFixed(2)}
                 </span>
+                 <div className="h-12 flex items-center overflow-hidden">
+                    <button 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                         addToCart(item);
+                      }}
+                      className="whitespace-nowrap bg-[#39180F] text-[#F5EDDE] py-2.5 px-6 text-xs tracking-[0.2em] font-bold rounded-full transition-all duration-500 ease-out opacity-100 translate-y-0 md:opacity-0 md:translate-y-full group-hover:opacity-100 group-hover:translate-y-0 hover:border hover:border-gray-300 hover:bg-transparent hover:text-black cursor-pointer "
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
               </div>
             </div>
           </div>
