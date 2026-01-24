@@ -54,7 +54,7 @@ export default function ShopPage() {
                 $8.50 / bar
               </span>
             </div>
-            <div className="w-3 h-6 hidden md:block bg-[#F5EDDE]/20"></div>
+            <div className="w-3 h-6 hidden md:block bg-[#E5DAC6]"></div>
               <div className="w-full  border my-2 md:hidden  border-[#E5DAC6]"></div>
             <div className="flex md:flex-col justify-between flex-row  w-full items-center ">
               <span className="font-bold lg:text-md text-sm text-[#E5DAC6]">
