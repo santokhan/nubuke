@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "John D.",
+    "rating": 5,
+    "title": "Ancient Grain Wonder",
+    "content": "Best fonio I have ever tried. Super fluffy!",
+    "verified": true,
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "name": "Sarah M.",
+    "rating": 4,
+    "title": "Great alternative",
+    "content": "Excellent gluten-free option for my salads.",
+    "verified": true,
+    "date": "2024-01-12"
+  },
+  {
+    "id": 3,
+    "name": "Mike R.",
+    "rating": 3,
+    "title": "Good but expensive",
+    "content": "The quality is great but price is a bit high.",
+    "verified": false,
+    "date": "2024-01-10"
+  },
+  {
+    "id": 4,
+    "name": "Anna L.",
+    "rating": 5,
+    "title": "Fast cooking",
+    "content": "Literally takes 5 minutes. Amazing.",
+    "verified": true,
+    "date": "2024-01-08"
+  },
+  {
+    "id": 5,
+    "name": "Kev O.",
+    "rating": 2,
+    "title": "Not for me",
+    "content": "The texture was a bit too fine for my liking.",
+    "verified": true,
+    "date": "2024-01-05"
+  },
+  {
+    "id": 6,
+    "name": "Elena P.",
+    "rating": 5,
+    "title": "Highly recommend",
+    "content": "Nutty flavor is perfect.",
+    "verified": true,
+    "date": "2024-01-02"
+  },
+  {
+    "id": 7,
+    "name": "Chris W.",
+    "rating": 4,
+    "title": "Solid product",
+    "content": "Packaging was good and grain is clean.",
+    "verified": false,
+    "date": "2023-12-28"
+  },
+  {
+    "id": 8,
+    "name": "Julie B.",
+    "rating": 5,
+    "title": "My new staple",
+    "content": "Replacing rice with this forever.",
+    "verified": true,
+    "date": "2023-12-25"
+  },
+  {
+    "id": 9,
+    "name": "Tom H.",
+    "rating": 1,
+    "title": "Disappointed",
+    "content": "Arrived with a hole in the bag.",
+    "verified": true,
+    "date": "2023-12-20"
+  },
+  {
+    "id": 10,
+    "name": "Sia T.",
+    "rating": 4,
+    "title": "Versatile",
+    "content": "Works great for breakfast porridge too.",
+    "verified": true,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 11,
+    "name": "Leo G.",
+    "rating": 5,
+    "title": "Superfood indeed",
+    "content": "Energy levels are up since I started this.",
+    "verified": true,
+    "date": "2023-12-15"
+  },
+  {
+    "id": 12,
+    "name": "Nora E.",
+    "rating": 3,
+    "title": "Average",
+    "content": "It's okay, tastes like mild couscous.",
+    "verified": false,
+    "date": "2023-12-10"
+  },
+  {
+    "id": 13,
+    "name": "Will S.",
+    "rating": 4,
+    "title": "Good value",
+    "content": "The bulk pack is worth it.",
+    "verified": true,
+    "date": "2023-12-05"
+  },
+  {
+    "id": 14,
+    "name": "Zoe K.",
+    "rating": 5,
+    "title": "Excellent",
+    "content": "Quality is top notch. No sand or grit.",
+    "verified": true,
+    "date": "2023-12-01"
+  },
+  {
+    "id": 15,
+    "name": "Paul A.",
+    "rating": 2,
+    "title": "Hard to cook",
+    "content": "I followed instructions but it turned clumpy.",
+    "verified": false,
+    "date": "2023-11-25"
+  }
+]
