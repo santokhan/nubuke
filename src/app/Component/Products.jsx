@@ -60,10 +60,10 @@ export default function Products() {
 
   return (
     <section className="bg-[#F5EDDE] py-12 xl:px-38 lg:px-12 md:px-8 px-4 overflow-hidden">
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
-        <div className="space-y-3">
+      <div className="flex flex-col md:flex-row md:items-end justify-between md:gap-6 gap-4 md:mb-16 mb-8">
+        <div className="md:space-y-3 ">
           <h2 className="text-[#39180F] text-3xl md:text-4xl font-medium uppercase tracking-tight italic">
-            SHOP DATE-SWEETENED CHOCOLATE
+            Featured collection
           </h2>
           <h3 className="text-[#945947] font-semibold tracking-[0.2em] uppercase ">
             Our Collection
@@ -72,14 +72,14 @@ export default function Products() {
 
         <Link
           href="/shop"
-          className="group flex items-center gap-4 text-[#39180F] font-medium text-sm cursor-pointer"
+          className="group flex items-center gap-2 md:gap-4 text-[#39180F]  font-medium text-sm cursor-pointer"
         >
-          <span className="relative text-nowrap">
-            VIEW ALL
+          <span className="relative text-nowrap      ">
+            View All
             <span className="absolute left-0 -bottom-1 w-full h-[1.5px] bg-[#39180F] origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-left"></span>
           </span>
 
-          <div className="flex items-center justify-center h-6 w-6 rounded-full border border-[#39180F]/10 transition-all duration-300 group-hover:bg-[#39180F] group-hover:text-white bg-[#ebdfca] group-hover:border-[#39180F] p-1">
+          <div className="flex items-center justify-center md:h-6 md:w-6 h-5 w-5 rounded-full border border-[#39180F]/10 transition-all duration-300 group-hover:bg-[#39180F] group-hover:text-white bg-[#ebdfca] group-hover:border-[#39180F] p-1">
             <svg
               className="h-5 w-5 transform transition-transform duration-300 group-hover:translate-x-0.5"
               fill="none"

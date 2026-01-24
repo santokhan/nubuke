@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import {
   FaFacebook,
@@ -11,33 +11,14 @@ import {
 } from "react-icons/fa";
 
 export default function Footer() {
-  const companyLogos = [
-    {
-      name: "Apple",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-    },
-    {
-      name: "Amazon",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-    },
-    {
-      name: "Nike",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg",
-    },
-    {
-      name: "Starbucks",
-      image:
-        "https://upload.wikimedia.org/wikipedia/en/d/d3/Starbucks_Corporation_Logo_2011.svg",
-    },
-    {
-      name: "Tesla",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
-    },
-  ];
+  const [logos, setLogos] = useState([]);
+
+  useEffect(() => {
+    fetch("/companyLogos.json")
+      .then((res) => res.json())
+      .then((data) => setLogos(data))
+      .catch((err) => console.error("Error loading logos:", err));
+  }, []);
 
   return (
     <footer className="bg-[#39180F]   xl:px-38 lg:px-12 md:px-8 px-4 flex flex-col justify-center gap-20 py-15">
@@ -135,13 +116,13 @@ export default function Footer() {
             <FaLinkedin size={28} />
             <FaTiktok size={28} />
           </div>
-           <p className="mt-2 md:mt-0 text-sm  md:block hidden">
+          <p className="mt-2 md:mt-0 text-sm  md:block hidden">
             Follow us on social media for the latest updates
           </p>
         </div>
         <div className="space-y-5">
           <div className="flex gap-2 h-full flex-wrap md:justify-end md:items-end ">
-            {companyLogos.map((logo, index) => (
+            {logos.map((logo, index) => (
               <div key={index} className="w-12 h-8 relative">
                 <Image
                   src={logo.image}

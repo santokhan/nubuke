@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Visa",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
+  },
+  {
+    "name": "Mastercard",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
+  },
+  {
+    "name": "PayPal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+  },
+  {
+    "name": "Stripe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg"
+  },
+  {
+    "name": "American Express",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg"
+  },
+  {
+    "name": "Apple Pay",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Apple_Pay_logo.svg"
+  },
+  {
+    "name": "Google Pay",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Google_Pay_Logo.svg"
+  }
+]
