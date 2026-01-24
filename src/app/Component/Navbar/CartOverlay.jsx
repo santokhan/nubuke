@@ -370,12 +370,13 @@ const EmptyCart = ({ toggleCart }) => (
       </svg>
     </div>
     <p className="text-[#39180F] text-xl font-medium">Your cart is empty</p>
-    <button
+    <Link
+    href='/shop'
       onClick={toggleCart}
       className="bg-[#39180F] text-[#F5EDDE] px-8 py-4 border-2 border-[#39180F] hover:text-[#39180F] cursor-pointer rounded-full font-bold hover:bg-[#F5EDDE] transition-colors"
     >
       Continue shopping
-    </button>
+    </Link>
   </div>
 );
 
