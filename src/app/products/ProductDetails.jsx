@@ -302,14 +302,14 @@ export default function ProductDetails() {
               })}
             </div>
 
-            <div className="flex items-center gap-4 border justify-center border-[#39180F]/20 w-37 p-1 rounded-full">
+            <div className="flex items-center gap-4 border justify-center border-[#39180F]/10 w-37 p-1 rounded-full">
               <button
                 onClick={() => setBundleCount(Math.max(1, bundleCount - 1))}
                 disabled={bundleCount <= 1}
-                className={`w-12 h-8 border-[#39180F]/20 border rounded-full text-xl flex items-center justify-center  ${
+                className={`w-12 h-8 border-[#39180F]/10 border rounded-full text-xl flex items-center justify-center  ${
                   bundleCount <= 1
-                    ? "border-[#39180F]/20 text-[#39180F]/40 cursor-not-allowed"
-                    : "border-[#39180F]/40 text-[#39180F] hover:text-white hover:bg-[#39180F] cursor-pointer"
+                    ? "border-[#39180F]/10 text-[#39180F]/40 cursor-not-allowed"
+                    : "border-[#39180F]/10 text-[#39180F] hover:text-white hover:bg-[#39180F] cursor-pointer"
                 }`}
                 title={bundleCount <= 1 ? "Cannot reduce below 1" : ""}
               >
@@ -322,7 +322,7 @@ export default function ProductDetails() {
 
               <button
                 onClick={() => setBundleCount(bundleCount + 1)}
-                className="w-12 h-8 border border-[#39180F]/20 rounded-full text-xl text-[#39180F] flex items-center hover:bg-[#39180F] hover:text-[#F5EDDE] justify-center cursor-pointer"
+                className="w-12 h-8 border border-[#39180F]/10 rounded-full text-xl text-[#39180F] flex items-center hover:bg-[#39180F] hover:text-[#F5EDDE] justify-center cursor-pointer"
               >
                 +
               </button>

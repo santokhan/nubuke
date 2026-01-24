@@ -160,7 +160,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="navbar bg-[#F5EDDE] xl:px-38 lg:px-12 md:px-8 sticky top-0 z-100 lg:py-5 shadow-sm px-4">
+    <header className="navbar bg-[#F5EDDE] xl:px-38 lg:px-12 md:px-8 sticky top-0 z-100 lg:py-5 px-4">
       <nav className="w-full flex items-center justify-between">
         <div className="navbar-start flex-1">
           <div className="flex items-center gap-4 xl:hidden">
